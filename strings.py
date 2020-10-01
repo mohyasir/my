@@ -1,16 +1,16 @@
-me = "Caleb"
+me = "Yasir"
 
 #escape character example
 print("\n")
 
-me = "C\ta\tl\te\tb\n"
+me = "Y\ta\ts\ti\tr\n"
 
 print(me)
 
 #can also use single quotes
 you = 'Subscriber'
 
-me = "Caleb" #reset to normal
+me = "Yasir" #reset to normal
 
 #passing multiple arguments to print
 print(me, you)
@@ -56,15 +56,15 @@ print(me, "+", you)
 #by putting them one after the other. This is ideal if you need to split a large string up 
 #onto multiple lines.
 print("my " "name "
-    "is " "Caleb")
+    "is " "Yasir")
 
 #You can also use multiline string
-print("""Name: Caleb
+print("""Name: Yasir
 Age: 58""")
 
 #skip newline using \ (without it, it would go down a line each line)
 print("""\
-Name: Caleb. \
+Name: Yasir. \
 Age: 58""")
 
 """You may see
@@ -164,7 +164,7 @@ print(len(coffee))
 #nope.
 
 #last index is always len() - 1.
-name = "Caleb"
+name = "Yasir"
 print("index 4:", name[4]) #b
 print("len(name)", len(name)) #length is 5
 
